@@ -1,0 +1,284 @@
+* {
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+}
+
+.header {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15% 20px 15%;
+    align-items: center;
+}
+
+.h1 {
+    width: 150px;
+}
+
+.listmove {
+    display: flex;
+    list-style: none;
+}
+
+.list {
+    color: white;
+    padding-left: 25px;
+    font-size: bold;
+}
+
+.list:hover {
+    color: #1ed760;
+}
+
+.content1 {
+    width: 100%;
+    height: 86vh;
+    background: url(/bubbles-dktp.png) no-repeat center, linear-gradient(to bottom, rgb(176, 35, 198), rgb(108, 14, 224));
+    background-size: cover;
+    display: flex;
+    padding-left: 250px;
+    padding-right: 90px;
+
+}
+
+.demo {
+    width: 400px;
+    background-color: #1ed760;
+    background: url(/mobile.png) top no-repeat;
+    background-size: cover;
+    margin-top: 130px;
+    padding-left: 20px;
+    padding-top: 73px;
+    overflow: hidden;
+}
+
+.demo img {
+    width: 258px;
+}
+
+.text {
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 200px;
+}
+
+.text2 {
+    font-size: medium;
+}
+
+.text h1 {
+    font-size: 55px;
+    font-weight: 800;
+    color: white;
+}
+
+.text button {
+    padding: 15px 20px 15px 20px;
+    border-radius: 100px;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content2 {
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    font-size: medium;
+}
+
+.content2 h1 {
+    font-size: 41px;
+    font-weight: bold;
+    margin-top: 76px;
+    font-style: initial;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+
+
+.content3 {
+    width: 100%;
+    height: 65vh;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+
+.content3 h1 {
+    text-align: center;
+    padding-top: 171px;
+    font-size: 54px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.content4 {
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+}
+
+.content4 h1 {
+    text-align: center;
+    font-size: 41px;
+    font-weight: 700;
+    margin-top: 76px;
+}
+
+.qstns {
+    width: 73%;
+    height: 50%;
+    margin-top: 78px;
+    margin-left: 202px;
+}
+
+.fst {
+    display: flex;
+    background-color: white;
+    height: 70px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 20px;
+}
+
+.fst p:nth-child(2) {
+    padding-left: 750px;
+    font-size: 25px;
+}
+
+
+.fst p:nth-child(1) {
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.fst:hover {
+    text-decoration: underline;
+    border: none;
+    background-color: rgba(100, 100, 100, 0.03);
+}
+
+.content5 {
+    width: 100%;
+    height: 70vh;
+    background: url(/bubbles-dktp.png) no-repeat center, linear-gradient(to bottom, rgb(176, 35, 198), rgb(108, 14, 224));
+
+}
+
+.content5 h1 {
+    text-align: center;
+    padding-top: 190px;
+    color: white;
+    font-size: 70px;
+}
+
+.content5 button {
+    padding: 15px 20px 15px 20px;
+    border-radius: 100px;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 666px;
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+}
+
+.rowfst {
+    display: flex;
+}
+
+.f1 {
+    width: 150px;
+    margin: 76px 0 0 171px
+}
+
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    color: white;
+}
+
+.f2 {
+    flex-basis: 20%;
+    color: white;
+    margin-top: 90px;
+}
+
+.f2:nth-child(1) {
+    padding-left: 70px;
+}
+
+.f2:nth-child(2) {
+    padding-left: 35px;
+}
+
+.f2 h3 {
+    font-size: smaller;
+    color: gray;
+}
+
+#effect span:hover {
+    color: #1ed760;
+
+}
+
+#effect span {
+    padding: 0 10px;
+    font-size: x-small;
+}
+
+#effect {
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    background: #222326;
+    border-radius: 100px;
+    display: inline-block;
+    position: relative;
+}
+
+.styleicon {
+    position: absolute;
+    top: 12px;
+    left: 14px;
+    color: white;
+    font-size: 25px;
+}
+
+.styleicon:hover {
+    color: #1ed760;
+}
+
+.angle1 {
+    margin-left: 105px;
+}
+
+.angle2 {
+    margin-left: 35px;
+}
+
+.angle4 {
+    margin-left: 95px;
+}
